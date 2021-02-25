@@ -153,7 +153,20 @@ label {
   border-radius: 10px;
 }
 
-.form-control {
+
+#exampleInputEmail1{
+  font-size: 18px;
+  padding: 15px 10px 10px 5px;
+  display: block;
+  width: 70%;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+
+#exampleInputPassword1{
   font-size: 18px;
   padding: 15px 10px 10px 5px;
   display: block;

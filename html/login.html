@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header></header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/repo/">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABbElEQVRIS92VrU4DURCFvyMwKAQeHBIIDwA1aCwKeAJSh6OVuCo0Co0GAwJf3oBHKAZFcmA29zbb0t3sLq3hJk263c755u/OiBUfrVifRgDb28AWcATsAUNJ4ybOzQBsbwC7SSREQyxE509P0nMrgO335GUTu04AN1FO/+kBEeEZMJbUr7Kdpsh2W8AAOEzCfUkj2wfAjqT7DFwWYAg8Aq9J+EnScXyvAoRBPrmYo9QA8Xuk6AS4BN5SI5wCt8noS9JaHaDoHEkvtqOTokUDEHkvAPNdZHszRbEP3Ei6qgMUKpJkOyLIuc5RRQTlGsS9iGdsr0v6bFSDNgBgxhFJRZpri9wSEHrXU8+lQvufA1Ihz0vdU1nk9CKn6ENSzLX6FNWMjl9dVALEvRhIelgm4ELS3SKH/jIqJkCkYVK3G8qA1Y7rdAvDoxgN8ckLZ/4WLxwVVfVqszIDmFdmFLH9yqzpms6vGkXQWf3H8BugaKMZy4oZBgAAAABJRU5ErkJggg=="
+            width="30"
+            height="24"
+            class="d-inline-block align-botton"
+          />
+          Teams</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/repo">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarScrollingDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Link
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarScrollingDropdown"
+              >
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <span class="navbar-text">
+            <form class="container-fluid justify-content-start">
+              <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" id="#contenido-modal"><a class="botonesnav" href="/repo/html/login.html">Iniciar Sesion</a></button>
+              <button type="button" class="btn btn-outline-secondary"><a class="botonesnav" href="/repo/html/registro.html">Registrarse</a></button>
+            </form>
+          </span>
+        </div>
+      </div>
+    </nav>
+
+    
+
+    <main>
+
+        <form id="formulario"  class="formulario">
+
+            <div class="login">
+
+                <h1>Iniciar Sesion</h1>
+    
+                <div class="grupo">
+                    <label for="exampleInputEmail1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                  </div>
+                </div>
+    
+                <div class="grupo">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+                
+                </div>
+                
+                <div class="grupo">
+                    <button class="btn btn-primary"  onclick="inicioSesion()">Iniciar Sesion</button>
+                </div>
+    
+            </div>
+        </form>
+
+       
+
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9">
+            <div class="row">
+              <div class="col-md-5">
+                <h2 class="footer-heading mb-4">About Us</h2>
+                <p>
+                  Hey there guys We are Web Developer and we will give free
+                  Websites Codes.. We will give you guys free website stuff like
+                  Navbars, Footers, Gallery etc...
+                </p>
+              </div>
+              <div class="col-md-3 ml-auto">
+                <h2 class="footer-heading mb-4">Quick Links</h2>
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#about-section" class="smoothscroll">About Us</a>
+                  </li>
+                  <li>
+                    <a href="#services-section" class="smoothscroll"
+                      >Services</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#testimonials-section" class="smoothscroll"
+                      >Testimonials</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#contact-section" class="smoothscroll"
+                      >Contact Us</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-3">
+                <h2 class="footer-heading mb-4">Follow Us</h2>
+                <a
+                  href="https://www.facebook.com/"
+                  target="_blanck"
+                  class="pl-0 pr-3"
+                  ><img
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABjklEQVRIS7WVy1HDMBCGd90AJQAVECpISoAKCBWQnLx7IpxWPhEqIFRA6CAlhA5MB9CAlxFjC/khWTBjz2gm8Ur69vkbYeIHJ74fRgEiskTEOQDM6mV9OtZrT0RvMSeDgKIorlT1EQDORqIsEXGd5/l+aN8gwBizBYC7P6ZvS0Tr7pke4J+XN/c+EdHKh7QAdVpeQ56r6keWZSs/HSKyQcT75gwiXvv2FkBEbD5PA4AvVZ0xc+nbuwAAKIno3AGbH3W3PEe8f2Hmpbd/kWXZXFUXAGCXe/woXAQiskPEmwjggZk31p6QSueMAxhjbG9fpAAG0tI9diSiS/vSB2isLVXVRZAAACL6uXsU0GwMwUXkUE96a0sPEOqgMYAx5hMATjoOvBORlZbfCEJFTgD0Uquq/SIntGlyDVT1lpl3rQjsn9igpRbZTjszO4FMlopUQFQqbBQhsUsExMXOk4HeVI8B/MIG1dQ3WDmoqmrbiF8IMKSwSQBfBGsxOzSdYTuu+y40iKPf5Jh8pNgmB3wD+mn9GQPOWo0AAAAASUVORK5CYII=" /><span
+                    class="icon-facebook"
+                  ></span
+                ></a>
+                <a
+                  href="https://www.twitter.com/"
+                  target="_blanck"
+                  class="pl-3 pr-3"
+                  ><span class="icon-twitter"
+                    ><img
+                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABoklEQVRIS91VwXHCMBC8kz/8khLoIKaCkApCKgipIPiD0A9ewnygg9BBoAM6CFQQp4KQJzy8mZuxGSNk7GSGD5rxR6fb1e2d1kwXXnxhfLoygul0ehtF0bZKtjiOOwBeiahNRAkzz7XWI8mTmNZ6kWMcSWStTYIg6PT7/XUZSRzHPQBTT1xyQgAvxpj5CcFkMgnTNP0goi2AJ2PMygWx1jaZ+fNMhWsAmyAIZvklDxWIPLvd7ruQPAcwMsYk+V4mzfsZgh+lVLuogCvRipnvHYAFM8uXAGiVyJOnLAeDQaeYf1TBfr9vAxD9bqoa7YtnFQ9LCRyJ/szBzJHWeuYlkE1rrU+i2kRKqZY7gW4PZEpkhu9qo2YHAXwZY5pu3olVWGvbzCyP6KhZVYQ+eSTHR9Bl5rcqwGJcbt9oNEKfC3jNbjweS6OkiloLwIPvYXoryBHl1RLRkJmfz7G41lDZAzmQ2YZU0D33agH0ir7jO3uQKGtuj4gea+iyzMAPNlKW422y2DAzh4Vx3QDYKqUWaZouiv5UdZkr+6NVlfuf+MUl+gXdMr8ZRVCvFAAAAABJRU5ErkJggg==" /></span
+                ></a>
+                <a
+                  href="https://www.instagram.com/"
+                  target="_blanck"
+                  class="pl-3 pr-3"
+                  ><span class="icon-instagram"
+                    ><img
+                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAACA0lEQVRIS81VMW4bQQzkbKFV6XTubH8gVh4Q2HlB/IPIL4jV6HarKBUP29h5ga0XxJVbK6lSykgbICryAKUVoGNAYfdwOsvSKYBgExAOEHgcDjmcA+04sOP69DwAzHwK4AMRdeJvHdExEY1FZOi9H9UTHzFg5i6Aa00UkW8ApiKiRR4FgI6I7AE4ifnn3vubauISQOz8Xgu32+2zXq83bbIjZj4EcEtExyLyrsqkDnAD4Mxae9ikeAhhvyiKOyL6ISIBwO84qm5qrA4wIaKJ9/603rmOzhhzEP+fZFk2DCG8LYriOxH9dM69ZuYRgAPn3NFKgDzPhYi+OOcuUkIIoVMUhe5EF16NsTHmfD6f7xljfmVZ9icCnDjnysaXGCiAiHz23g9SpTzPdcE640Gr1VoscDabdUXkUtXjnHuTcrcGSIoC0Muy7KraPjMPAHwSkVI5/wOwKGKtfVVfelSOLrVk/CIBFke3sxHpzOOSj4nowlo7jEv+KCIqhAfnXKmuRiN6QqaqHgWpxoMxptvv90sb2QjAzGsPTeWaDq3uOYmtepP3PuUt2zUzq1W8t9YeNbGKmmz1VjZahdr0PRGNor6V0caIkv2q177W7LRS1a4ViIimAFbatYgkz1o8q0e30osqJ68vqCMqo2RwTzH5GxlfNfrgbJzHlgnP803essm16f8AxThfKIocpB4AAAAASUVORK5CYII=" /></span
+                ></a>
+                <a
+                  href="https://www.linkedin.com/"
+                  target="_blanck"
+                  class="pl-3 pr-3"
+                  ><span class="icon-linkedin"
+                    ><img
+                      src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABIklEQVRIS+WVwU3DQBBF/7/5FpdAB4QKSAnQAR0QnzyuYMcnk06SCggdJB1QAhx9GjSWN1JQMDaOo0jMybva/W//eHaHmDg4sT4uC1DVHYDbka52InIXNY4cqKqNFG+2i8hBtwuwamHPQ6F9ACsRWbqwqr4AGAS5CoAf3k/u0TgZEn0cfJqZVxRIzgHMzOythdyQTM1sDeCd5MP3yvsV4GJFUSxcMISwJXkfN4UQnpIkWWdZ9hFdlWW5NLMqjkcBfkqVqjpw1qtMuxxUVZXWdf0KYE7yMc9zT9XB6WhACGFB0gEeGxHxfzAN4JTTszr4xwAAXnLNRfNqAZAC2LZj//Y5j1Prer+mQ16Ho7VdF+0cDWcvItHhhVvmn3PSsXHypv8FqEb+GfB19PYAAAAASUVORK5CYII=" /></span
+                ></a>
+              </div>
+              <p></p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <h2 class="footer-heading mb-4">Subscribe Newsletter</h2>
+            <form action="#" method="post" class="footer-subscribe">
+              <div class="input-group mb-3">
+                <input
+                  type="text"
+                  class="form-control border-secondary text-white bg-transparent"
+                  placeholder="Enter Email"
+                  aria-label="Enter Email"
+                  aria-describedby="button-addon2"
+                />
+                <div class="input-group-append">
+                  <button
+                    class="btn btn-primary text-black"
+                    type="button"
+                    id="button-addon2"
+                  >
+                    Send
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <div class="border-top pt-3">
+              <p class="pfooter">
+                Copyright ©
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+                All rights reserved | This Website is Develop by Rafay , Farhan
+                And Nick
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
